@@ -66,12 +66,10 @@ const Hero = () => {
 
               {/* Text Content */}
               <div
-  className="hero-content absolute top-1/2 left-4 sm:left-8 md:left-16 transform -translate-y-1/2 text-white max-w-md z-10
-             xs:-translate-y-[135%]"
->
-
-
-                <motion.h2
+  className="hero-content absolute top-1/2 left-4 sm:left-8 md:left-16 transform  text-white max-w-md z-10
+             xs:-translate-y-[210%] xm:-translate-y-1/2"
+> 
+           <motion.h2
                   initial={{ x: -50, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   className="hero-title font-bold font-borel text-3xl sm:text-4xl mb-4"
