@@ -42,7 +42,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero-container relative min-h-[90vh] w-full overflow-hidden">
+    <div className="hero-container relative h-[96vh] w-full overflow-hidden">
       {/* Hero Section */}
       <div className="hero-background-wrapper relative h-screen">
         <AnimatePresence mode="wait">
