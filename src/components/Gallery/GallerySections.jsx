@@ -21,7 +21,7 @@ const LeftDominantLayout = ({ images, onImageClick , numId }) => {
 
 
     <div
-      className="grid grid-rows-2 gap-[0.2rem] md:gap-4 my-0 mx-auto p-2 md:p-[2rem] h-[450px] mt-[1rem]"
+      className="grid grid-rows-2 gap-[0.1rem] md:gap-4 my-0 mx-auto p-2 md:p-[2rem] h-[450px] mt-[1rem]"
       style={{ gridTemplateColumns: "60% 40%" }} // 60:40 ratio
     >
       {/* Large Left Image */}
