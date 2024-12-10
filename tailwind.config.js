@@ -11,6 +11,7 @@ module.exports = {
       },
       screens: {
         'xs': '360px', // Add custom breakpoint for 360px
+        'xm':'390px',
         'xl':'450px'
       },
     },
