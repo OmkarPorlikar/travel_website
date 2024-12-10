@@ -24,11 +24,11 @@ const Design4 = () => (
     <h2 className="text-3xl font-bold text-center my-10 text-teal-900">Itinerary</h2>
     {destinations?.days.map((day, index) => (
       <div key={day.day} className="mb-12 relative">
-        <div className="absolute -left-10 top-[-15px] w-16 mb-8 h-8 bg-purple-500 text-white 
+        <div className="absolute -left-10 top-[-30px] md:top-[-15px] w-16 mb-8 h-8 bg-purple-500 text-white 
           rounded-full flex items-center justify-center font-bold">
           Day {day.day}
         </div>
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="bg-white rounded-lg shadow-lg p-2 md:p-6">
           <div className="flex justify-between items-center mb-3">
             <h3 className="text-lg font-semibold text-teal-950">Day Journey</h3>
             <div className="flex items-center text-gray-500">
@@ -58,7 +58,7 @@ const Design4 = () => (
 
 
   return (
-    <div className="container mx-auto p-12 pt-0 max-w-[96rem] ">
+    <div className="container mx-auto  p-6 md:p-12 pt-0 max-w-[96rem] ">
    
   <div className="bg-white rounded-xl p-6 ">
     <h4 className="text-xl font-semibold text-green-600 mb-4 text-center">
