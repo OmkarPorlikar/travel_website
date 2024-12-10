@@ -47,7 +47,7 @@ const FAQ = () => {
               <Info className="mr-3 text-blue-600 flex-shrink-0" />
               <h3 className="font-semibold text-lg text-teal-950">{faq.question}</h3>
             </div>
-              <p className="text-gray-600 mt-2">{faq.answer}</p>
+              <p className="text-gray-600 text-justify mt-2">{faq.answer}</p>
           </div>
         ))}
       </div>
