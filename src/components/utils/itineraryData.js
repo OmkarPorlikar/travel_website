@@ -3,6 +3,7 @@ const itineraryData = {
 0:{
   title: "Enchanting Himachal: A Journey from Delhi to Shimla",
  subTitle :  "DELHI - SOLAN - JIUNTHI - SHIMLA - DELHI" ,
+ maxElevation: " 3,895m (12,778 feet)",
   duration: "3 Days",
   distance: "736km",
   highlights: ["Delhi", "Solan", "Jiunthi Village", "Shimla"],
@@ -134,6 +135,7 @@ const itineraryData = {
   title: "WINTER LADAKH ROAD TRIP",
   subTitle: "LEH - SHAM VALLEY - NUBRA - PANGONG LAKE - LEH",
   duration: "6 Days",
+  maxElevation: "  5,602m (18,379 feet)",
   distance: "1100 km",
   highlights: [
     "Leh Arrival & Acclimatization",
@@ -412,6 +414,7 @@ days: [
 3:{
   title: "Himalayan Adventure: Chandigarh to Chandratal",
   subTitle : "CHANDIGARH-MANALI-JISPA-PURNE-SISSU-CHANDRATAL-CHANDIGARH",
+  maxElevation: " 4,250m (13,943 feet)",
   duration: "6 Days",
   distance: "1230 km",
   highlights: ["Pandoh Dam", "Baralacha Pass", "Chandratal Lake", "Phugtal Gompa"],
@@ -623,6 +626,7 @@ days: [
   subTitle: "DELHI - SHIMLA - JIBHI - MANALI - DELHI",
   duration: "8 Days",
   distance: "540km",
+  maxElevation: " 2,276m (7,467 feet)",
   highlights: ["Shimla", "Jibhi", "Manali", "Sissu Waterfall"],
   images: [
     '/assest/delhi_shimla/01.jpg',
@@ -742,6 +746,7 @@ days: [
   title: "WINTER SPITI VALLEY ROAD TRIP ",
   subTitle: "DELHI - SHIMLA - SARAHAN - SANGLA - TABO - KAZA - KALPA - SHIMLA - DELHI",
   duration: "8 Days",
+  maxElevation: " 3,800m (12,467 feet)",
   distance: "1825km",
   highlights: [
     "Shimla",
@@ -889,6 +894,7 @@ days: [
         subTitle: "DELHI- CHURDHAR- SHIMLA - DELHI",
         duration: "6 Days",
         distance: "300km",
+        maxElevation: " 3,647m (11,965 feet)",
         highlights: ["Solan", "Jiuthi Campsite", "Churdhar Top", "Shimla Ridge"],
         images : [
           '/assest/churdhar_trek/01.jpg',
@@ -950,7 +956,7 @@ days: [
     subTitle:"CHANDIGARH - NARKANDA - CHITKUL - KALPA - TABO - KAZA - CHANDRATAL - MANALI - CHANDIGARH",
     duration: "10 Days",
     distance: "1440km",
-    maxElevation: "4585 meters",
+    maxElevation: " 4,250m (13,943 feet)",
     region: ["Shimla", "Kinnaur", "Spiti", "Lahaul", "Manali"],
     bestTime: ["June", "September", "October"],
     highlights: [
