@@ -3,36 +3,44 @@ import { Info } from 'lucide-react';
 
 const FAQ = () => {
 
-  const faqs = [
-    { 
-      question: "What documents do I need for international travel?", 
-      answer: "Typically, you'll need a valid passport, and depending on the destination, you may require a visa, travel insurance, and vaccination records." 
-    },
-    { 
-      question: "How far in advance should I book my trip?", 
-      answer: "For the best deals and availability, we recommend booking 3-6 months in advance, especially during peak travel seasons." 
-    },
-    { 
-      question: "Can I change my booking after purchase?", 
-      answer: "Most bookings can be modified, but fees may apply. Check the specific terms of your reservation for details." 
-    },
-    { 
-      question: "What travel insurance options are available?", 
-      answer: "We offer comprehensive travel insurance covering medical emergencies, trip cancellations, and lost luggage." 
-    },
-    { 
-      question: "How do I handle currency exchange?", 
-      answer: "We recommend using local ATMs, credit cards with no foreign transaction fees, and carrying some local cash." 
-    },
-    { 
-      question: "Are there any health precautions I should take?", 
-      answer: "Check CDC recommendations, get recommended vaccinations, and carry a basic first-aid kit." 
-    },
-    { 
-      question: "What's your cancellation policy?", 
-      answer: "Cancellation policies vary by booking type. Most have a free cancellation window of 24-48 hours before the trip." 
-    }
-  ];
+ const faqs = [
+  { 
+    question: "What experiences do these trips offer?", 
+    answer: "These trips combine spiritual exploration, breathtaking mountain views, trekking adventures, and authentic pahadi meals." 
+  },
+  { 
+    question: "What type of accommodations are provided?", 
+    answer: "Accommodations include campsites in scenic villages and guesthouses in picturesque mountain towns." 
+  },
+  { 
+    question: "Can I try local pahadi cuisine during the trips?", 
+    answer: "Yes, authentic pahadi meals are a key highlight of these trips, offering a taste of the region’s traditional flavors." 
+  },
+  { 
+    question: "Are there cultural activities included?", 
+    answer: "Absolutely! Activities such as exploring monasteries, visiting local markets, and participating in community ceremonies are part of the experience." 
+  },
+  { 
+    question: "Will there be opportunities to interact with local communities?", 
+    answer: "Yes, trips often include visits to villages like Jiunthi and Komic, where you can engage with the pahadi communities and learn about their way of life." 
+  },
+  { 
+    question: "How can I book a trip?", 
+    answer: "You can book a trip by contacting us via email or phone." 
+  },
+  { 
+    question: "Are there group discounts available?", 
+    answer: "Yes, special discounts are available for group bookings. Contact us for details." 
+  },
+  { 
+    question: "What is the cancellation policy?", 
+    answer: "Cancellation policies will be provided at the time of booking and may vary depending on the trip." 
+  },
+  { 
+    question: "Are these trips safe for solo travelers?", 
+    answer: "Yes, these trips are well-organized with safety measures in place, making them suitable for solo travelers as well." 
+  }
+];
 
   return (
     <div className=" p-3 md:p-8 ">
