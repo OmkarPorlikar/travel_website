@@ -13,7 +13,7 @@ const AboutUsPage = () => {
 
   const sections = {
     story: (
-      <div className="space-y-6 flex flex-col justify-start">
+      <div className="space-y-6 flex flex-col justify-start text-justify">
         <p>
           In 2012, I moved to Shimla to pursue my studies, facing financial
           challenges as a middle-class student. To support myself, I joined my
