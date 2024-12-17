@@ -71,7 +71,7 @@ const Design4 = () => (
         <div className="bg-orange-100 p-2 rounded-lg h-[6rem] w-[10rem] flex items-center justify-center flex-col">
           <ChartBarIcon className="text-orange-500 h-6 w-6 mb-1 text-3xl" />
           <h5 className="font-medium text-orange-700">Max Elevation</h5>
-          <p className="text-sm text-orange-600">Approx. {destinations?.maxElevation}</p>
+          <p className="text-sm text-orange-600">{destinations?.maxElevation}</p>
         </div>
       )}
     </div>
