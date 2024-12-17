@@ -82,15 +82,13 @@ const Design4 = () => (
         <p className="text-sm text-purple-600">Approx. {destinations?.distance}</p>
       </div>
 
-      {/* Highlights */}
+          {/* duration */}
       <div className="bg-orange-100 p-2 rounded-lg h-[6rem] w-[10rem] flex items-center justify-center flex-col">
         <MapIcon className="text-orange-500 h-6 w-6 mb-1" />
-        <h5 className="font-medium text-orange-700">Highlights</h5>
+        <h5 className="font-medium text-orange-700">Duration</h5>
         <p className="text-sm text-orange-600">
-          {destinations?.days.reduce(
-            (total, day) => total + day.highlights.length,
-            0
-          )} Key Locations
+          {destinations?.duration}
+          day
         </p>
       </div>
 
